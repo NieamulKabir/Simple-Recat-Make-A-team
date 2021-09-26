@@ -36,6 +36,7 @@ const Presidents = () => {
 
             <div className="col-lg-3">
                 <Cart cart= {cart}></Cart>
+                
             </div>
 
         </div>

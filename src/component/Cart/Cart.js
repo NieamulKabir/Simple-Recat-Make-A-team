@@ -2,18 +2,28 @@ import React from 'react';
 import './Cart.css'
 
 const Cart = (props) => {
-    const { cart } = props;
-    let total = 0;
-    for (const president of cart) {
-        total = total + president.salary;
-    }
+    const { cart } = props || {};
+
+    const totalReducer = (prevValue, currentValue) => prevValue + currentValue.salary
+
+    const total = cart.reduce(totalReducer, 0).toFixed(2)
+
+
     return (
         <div className="cart">
-            <h2><i class="fas fa-users"></i>Cart</h2>
-            <h3>No Of President: {props.cart.length}</h3>
-            <p>Total :${total}</p>
+            <h3><i class="fas fa-shopping-cart">Cart</i> </h3>
+            <h3>No of President: {cart.length}</h3>
+            <h2>{total}</h2>
+
+            <ul>
+                {
+                    cart.map(president => <li>{president.name}</li>)
+                }
+            </ul>
+
         </div>
     );
 };
+
 
 export default Cart;

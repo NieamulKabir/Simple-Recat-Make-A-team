@@ -30,7 +30,7 @@
         "id": 2,
         "name": "Ilir Rexhep Meta",
         "age": 52,
-        "spouse": "\tMonika Kryemadhi ",
+        "spouse": "Monika Kryemadhi ",
         "country": "Albania",
         "salary": 11400,
         "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/President_of_Albania_Ilir_Meta.jpg/220px-President_of_Albania_Ilir_Meta.jpg"
@@ -41,7 +41,7 @@
         "age": 62,
         "spouse": "Ivonne Bordeu",
         "country": "Argentina",
-        "salary": "country16400",
+        "salary": 16400,
         "img": "https://pbs.twimg.com/profile_images/653558348273569792/joxg8DZD_400x400.png"
     },
     {
@@ -59,7 +59,7 @@
         "age": 77,
         "spouse": "Rashida Hamid",
         "country": "Bangladesh",
-        "salary": "11400",
+        "salary": 11400,
         "img": "https://upload.wikimedia.org/wikipedia/commons/8/8a/Abdul_Hamid_-_2014_%28cropped%29.jpg"
     },
     {
@@ -104,7 +104,7 @@
         "age": 45,
         "spouse": "María Juliana Ruiz",
         "country": "Colombia",
-        "salary": "13400",
+        "salary": 13400,
         "img": "https://upload.wikimedia.org/wikipedia/commons/c/c5/Iv%C3%A1n_Duque%2C_presidente_de_Colombia.jpg"
     },
     {
