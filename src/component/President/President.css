@@ -1,0 +1,33 @@
+.president_container{
+    background-color: rgba(228, 223, 183, 0.713);
+   border: 5px solid rgb(248, 184, 243);
+    border-radius: 20px;
+    margin: 20px;
+    padding: 10px;
+    box-shadow: 10px 10px 20px rgb(106, 100, 100);
+    transition: 0.6s;
+}
+.president_container:hover{
+    box-shadow: 4px 4px 7px gray;
+    border-radius: 15px;
+}
+img{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+}
+button{
+    border: none;
+    padding: 5px 12px 5px 12px;
+    border-radius: 15px;
+    font-weight: 600;
+    background-color: rgba(144, 131, 155, 0.59);
+  
+}
+.social_icon{
+    margin: 5px;
+}
+.fab{
+    margin: 10px;
+    font-size: 22px;
+}

@@ -1,0 +1,9 @@
+.cart{
+    background-color: rgba(185, 220, 115, 0.59);
+    margin: 10px;
+    padding: 20px;
+    border-radius: 20px;
+    margin-top: 20%;
+    padding-bottom: 30%;
+    box-shadow: 10px 10px 20px rgb(106, 100, 100);
+}
